@@ -5,7 +5,7 @@ from sklearn.feature_extraction.text import TfidfVectorizer #to convert textual 
 from sklearn.metrics.pairwise import cosine_similarity #to find similarity of movie
 import streamlit as st
 
-st.title("Ineractive Movie Recommendation Website")
+st.title("Interactive Movie Recommendation Website")
 st.write("""# Explore movies similar to your favoirate movies
          """)
 
