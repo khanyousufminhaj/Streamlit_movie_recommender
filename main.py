@@ -6,11 +6,11 @@ from sklearn.metrics.pairwise import cosine_similarity #to find similarity of mo
 import streamlit as st
 
 st.title("Ineractive Movie Recommendation Website")
-st.write("""# Explore different classifer
+st.write("""# Explore movies similar to your favoirate movies
          """)
 
 #loading dataset into a pandas dataframe
-data=pd.read_csv(".\movies.csv")
+data=pd.read_csv("./movies.csv")
 selected_features=['genres','keywords','original_title','tagline','cast','director']
 
 #replacing null values with '' string
